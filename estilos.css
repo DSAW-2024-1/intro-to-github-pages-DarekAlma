@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    margin: 0 auto;
+    max-width:1440px;  
+    max-height: 1440px;
+    font-family: 'YoungSerif-Regular.ttf',Arial;
+    line-height: 1.5;
+}
+
+#caja-principal{
+    height: 1340px;
+    width: 650px;   
+    background-color:white;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius:10px;
+   
+}
+
+.titulos{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+.parrafo li{
+    margin-left: -20px; 
+}
+h3{
+    color:hsl(332, 51%, 32%);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    
+}
+#rosado{
+    background-color:hsl(330, 100%, 98%);
+    border-radius:10px;
+
+}
+img{
+    margin-top:10px;
+    border-radius:10px; 
+}
+table{
+    border-spacing:150px 0px;
+}
+#caja-principal .barra{
+    border-bottom: 1px solid black;
+}
+th{
+    color: hsl(332, 51%, 32%);
+}
+#caja-principal li::marker{
+    font-weight: bold;
+    color:hsl(14, 45%, 36%)
+}
+hr{
+    border-bottom: 1px solid black;
+}
+ 
